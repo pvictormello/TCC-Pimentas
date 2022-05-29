@@ -1,0 +1,334 @@
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31/08/2014, 10:08:22
+    Author     : Valdomiro
+*/
+
+/*-----------------Bandeiras-----------------------*/
+/*.tradutor{
+        background:#efefef;
+	//width:100%;
+        //width: 600px;
+	height:35px;
+}*/
+.tradutor {
+  
+
+   margin-right: 20px;
+    margin-left: 1040px;
+    margin-top: 5px;
+}
+.tradutor button img{
+    border-radius: 3px;
+}
+
+.tradutor .trocar_perfil a {
+    background: url('./imagens/icon.jpg') no-repeat 2px 0;/*Imagem de logout*/
+    color: #797979;
+    padding-left: 13px;
+    max-height:13px;
+}
+button{
+        background:transparent;
+	color: transparent;
+	font-weight: bold;
+	border-width: 4px;
+	border-style: solid;
+	border-top-color:transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+}
+
+
+/*.tradutor a:hover{
+    text-decoration: underline overline;
+}
+.tradutor a:first-child {
+	margin-right: 6px;
+}
+.tradutor a:last-child {
+	margin-left: 6px;
+	margin-right: 12px;
+}*/
+
+html, body, div, a, img, label,header, hgroup {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+ footer, header{
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+a {
+	color: #663399;
+	font-family: Tahoma, Geneva, Kalimati, sans-serif;
+}
+
+
+/* forms */
+
+/*label {
+	display: block;
+	clear: both;
+	margin-bottom: 8px;
+}
+input, select {
+	border: 1px solid #999999;
+}
+label input, label select {
+	clear: both;
+	display: block;
+	width: 100%;
+	margin-top: 2px;
+}*/
+/*label input[type=checkbox], label input[type=radio] {
+	clear: none;
+	display: inline;
+	width: auto;
+	margin-top: auto;
+	margin-left: 0;
+	border: none;
+}
+input[type=text], input[type=password] {
+	height: 28px;
+}*/
+/*select {
+	height: 28px;
+	padding-top: 4px;
+}
+input[type=submit], input[type=button] {
+	border: none;
+	width: 161px;
+	height: 30px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	text-align: center;
+	overflow: hidden;
+	padding-bottom: 6px;
+	float: right;
+	margin-right: -2px;
+	cursor: pointer;
+}
+input[type=radio] {
+	border: none;
+}
+textarea {
+	height: 100px;
+}
+*/
+/* layout */
+
+
+#content-inner {
+	padding: 0 2px;
+	min-width: 1130px;
+
+}
+
+
+/* header */
+
+#header {
+	width: 991px;
+        margin-left: 178px;
+	height: auto;
+	position: relative;
+}
+/* logo */
+
+#logo-holder {
+	position: relative;
+	margin-top: 24px;
+	width: 286px;
+	float: left;
+}
+#logo-holder a {
+	color: #a3a3a3;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: 700;
+}
+#slogan-holder {
+	color: #A3A3A3;
+	text-align: right;
+	position: absolute;
+	top: 128px;/*83px*/
+	left: 7px;/*93px*/
+	padding-right: 0px;
+	font-size: 13px;
+	font-weight: normal;
+}
+/* header section fo future content */
+
+#header .top {
+	width: 330px;
+	height: 52px;
+	position: relative;
+	float: right;
+	clear: right;
+}
+/* header login part */
+
+#header .login-holder {
+	float: right;
+	position: relative;
+	float: right;
+	clear: right;
+	margin-right: 3px;
+}
+#header .login-holder input {
+	background-image: none;
+	border: 1px solid  #25a4b0;/*#6b74e9*/
+	width: 143px;
+	height: 18px;
+	color: #000;
+	padding: 0 2px;
+	float: left;
+	margin: 0;
+	background-color: #fff;
+}
+#header .login-holder input[name=email] {
+	border-left: none;
+}
+#header .login-holder label.email-holder {
+	padding-left: 3px;
+	width: auto;
+	height: 20px;
+	display: block;
+	float: left;
+	margin-right: 1px;
+}
+#header .login-holder input[name=password] {
+	width: 96px;
+	margin-right: 1px;
+}
+#header .login-holder input[type=button] {
+
+        
+       
+    
+   /* font:bold 13px Arial, Helvetica, sans-serif;
+    font-style:normal;
+    color:#000000;
+    background:#f2f2f2;
+    border:0px solid #ffffff;
+    text-shadow:-1px 1px 0px #fff;
+    box-shadow:0px 0px 7px #000000;
+    -moz-box-shadow:0px 0px 7px #000000;
+    -webkit-box-shadow:0px 0px 7px #000000;
+    border-radius:20px 20px 20px 20px;
+    -moz-border-radius:20px 20px 20px 20px;
+    -webkit-border-radius:20px 20px 20px 20px;
+    width:63px;
+    padding:1px 20px;
+    cursor:pointer;
+    margin:0 auto;*/
+   
+   font:normal 13px "Courier New", Courier, monospace;
+   text-align: center;
+font-style:normal;
+color:#ffffff;
+background:#7d7373;
+border:2px solid #b1b8b4;
+text-shadow:0px 0px 0px #ffffff;
+box-shadow:0px 0px 2px #454545;
+-moz-box-shadow:0px 0px 2px #454545;
+-webkit-box-shadow:0px 0px 2px #454545;
+border-radius:90px 15px 90px 15px;
+-moz-border-radius:90px 15px 90px 15px;
+-webkit-border-radius:90px 15px 90px 15px;
+width:72px;
+padding:0px 10px;
+cursor:pointer;
+margin:0 auto;
+}
+#header .login-holder form {
+	clear: both;
+}
+/* login options */
+
+#header .options {
+	text-align: right;
+	color: #999999;
+	font-weight: 700;
+	font-size: 12px;
+	clear: both;
+}
+#header .options a {
+	color: #25a4b0;
+	text-decoration: none;
+	font-size: 11px;
+}
+#header .options a:first-child {
+	margin-right: 6px;
+}
+#header .options a:last-child {
+	margin-left: 6px;
+	margin-right: 12px;
+}
+
+/*-------- CSS da mensagem do login-------------------*/
+.invalido{
+  
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #d83526;
+    font-size:13px; 
+    position: absolute;
+    left: 680px;
+    top: 25px;
+}
+/*--------------Css do usuario logado-------------------*/
+.logado{
+    font-family: "Times New Roman", Times, serif;
+    color: #20B2AA;
+    text-transform: lowercase;
+    position: absolute;
+    left: 680px;
+    margin:-20px 0 40px 40px;
+}
+/*---------------Css da opcao de sair-----------------*/
+.logoff a{
+    font-family: "Times New Roman", Times, serif;
+    color: #20B2AA;
+    text-transform: lowercase;
+    position: absolute;
+    left: 680px;
+    margin:0px 0 40px 40px;
+}
+
+/*----  ------Css do botão de login -------------*/
+.loginButton{
+    
+}
+.loginButton:active{
+    cursor:pointer;
+    position:relative;
+    top:2px;
+}
+
+
+
+
+
+
+
+
+
+
+

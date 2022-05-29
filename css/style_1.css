@@ -1,0 +1,325 @@
+body{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", helvetica, verdana, arial, sans-serif;
+	overflow: hidden;
+	background: #EFEFEF;
+	min-width: 640px;
+	font-size: 13px;
+}
+a {
+	color: #0088cc;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #005580;
+	text-decoration: underline;
+}
+.clearfix{
+	clear: both;
+}
+#wrapper{
+	width: 700px;/* 960px*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.content{
+	color: #333;
+}
+.content h3, .content h4{
+	margin: 0;
+	padding: 24px;
+}
+.content p{
+	padding: 12px 24px;
+	line-height: 160%;
+}
+.image-example{
+	margin: 4px 24px;
+}
+h3{
+	font-size: 28px;
+}
+h4{
+	font-size: 24px;
+}
+.portfolio{
+	margin-left: 24px;
+}
+.portfolio li{
+	display: inline-block;
+	float: left;
+	margin: 8px 12px;
+}
+#panel-left{
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	color: #FFF;
+}
+
+#panel-right{
+	position: absolute;
+	height: 100%;
+	top: 0;
+	right: 0;
+	color: #FFF;
+}
+
+#panel-bottom{
+	position: absolute;
+	/*height: 100%;*/
+	width: 100%;
+	/*height: 280px;*/
+	left: 0;
+	bottom: 0;
+}
+
+#panel-top{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.menu-left{
+	width: 120px;
+	height: 100%;
+	background: #333;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1002;
+	/*padding-top: 200px;*/
+}
+
+.menu-right{
+	width: 120px;
+	height: 100%;
+	background: #333;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1002;
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(0, 0, 0) transparent;
+	/* RGBa with 0.6 opacity */
+	background: rgba(0, 0, 0, 0.6);
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+	/*padding-top: 200px;*/
+}
+
+.menu-bottom{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1002;
+	background: #333;
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333333), to(#000000));
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #000000, #333333);
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #000000, #333333);
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #000000, #333333);
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #000000, #333333);
+}
+
+.menu-top{
+	width: 100%;
+	height: 50px;
+	background: #333;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1002;
+	background: #333;
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333333), to(#000000));
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #000000, #333333);
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #000000, #333333);
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #000000, #333333);
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #000000, #333333);
+}
+
+
+.menu-bottom .menu-item{
+	display: inline-block;
+	float: left;
+	width: 120px;
+}
+
+.menu-bottom .menu{
+	margin: 0;
+	margin-left: 280px;
+}
+
+.menu-top .menu-item{
+	display: inline-block;
+	float: left;
+	width: 120px;
+}
+
+.menu{
+	list-style: none;
+	margin-top: 120px;
+}
+.menu-top, .menu-bottom{
+	min-width: 640px;
+}
+.menu-top .menu{
+	margin: 0;
+	margin-left: 40px;
+}
+
+.menu-item{
+	font-size: 12px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	width: 100%;
+	height: 24px;
+	color: #FFF;
+	padding: 18px 0px 8px 0;
+	cursor: pointer;
+}
+
+.menu-top .menu-item, .menu-bottom .menu-item{
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333333), to(#000000));
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #000000, #333333);
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #000000, #333333);
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #000000, #333333);
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #000000, #333333);
+}
+
+.menu-item:hover, .menu-item.active{
+	/*background: #EFEFEF url(../images/dark_wood.png) repeat;*/
+	background: #0066FF;
+
+}
+
+.menu-bottom .menu-item:hover, .menu-bottom .menu-item.active{
+	border-radius: 96px;
+	background: #B22222;
+	/*background: #333 url(../images/fibers.png) repeat;*/
+}
+
+.menu-left .menu-item:hover, .menu-left .menu-item.active{
+	/*border-radius: 96px;*/
+	background: #B22222;
+	/*background: #333 url(../images/fibers.png) repeat;*/
+}
+
+.panel-container{
+	position: absolute;
+	z-index: 1001;
+	line-height: 160%;
+	/*left: 120px;*/
+	/*top: 0;*/
+	color: #FFF;
+}
+.panel-item{
+	padding: 0 0 24px 0;
+}
+
+#panel-right .panel-container{
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#panel-left .panel-container{
+	height: 100%;
+	position: absolute;
+	left: 120px;
+	top: 0;
+}
+
+#panel-left .panel-item{
+	background: #333 url(../images/fibers.png) repeat;
+	position: absolute;
+	width: 480px;
+	height: 100%;
+	padding: 0px 24px 0 24px;
+	top: 0;
+	left: 0;
+	/*display: none;*/
+}
+
+#panel-right .panel-item{
+	background: #333 url(../images/fibers.png) repeat;
+	position: absolute;
+	width: 480px;
+	height: 100%;
+	padding: 0px 24px 0 24px;
+	top: 0;
+	right: 0;
+	display: none;
+}
+
+#panel-bottom .panel-item{
+	background: #333 url(../images/fibers.png) repeat;
+	position: absolute;
+	/*padding: 0px 24px 0 24px;*/
+	width: 100%;
+	display: none;
+}
+
+#panel-top .panel-item{
+	background: #333 url(../images/dark_wood.png) repeat;
+	position: absolute;
+	/*padding: 0px 24px 0 24px;*/
+	width: 100%;
+	/*display: none;*/
+}
+
+#panel-bottom .panel-item p, #panel-bottom .panel-item h4{
+	padding: 0 24px;
+}
+
+#panel-bottom .panel-container{
+	position: absolute;
+	z-index: 1001;
+	line-height: 160%;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: auto;
+	color: #FFF;
+}
+
+#panel-top .panel-container{
+	position: absolute;
+	z-index: 1001;
+	line-height: 160%;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	color: #FFF;
+}
+
+
+#panel-top .panel-item p, #panel-top .panel-item h4{
+	padding: 0 24px;
+}
+
+.panel-item p, .panel-item h4{
+	margin-top: 24px;
+}

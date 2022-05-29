@@ -1,0 +1,133 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/07/2015, 12:28:23
+    Author     : Valdomiro
+*/
+
+/* ----------- My Form ----------- */
+            .myform{
+                
+                margin-left: 180px;
+                margin-top: 10px;
+                width:600px;
+                padding:20px;
+                
+                
+            }
+ 
+            /* ----------- form-wrapper ----------- */
+            #form-wrapper{
+                background: none repeat scroll 0 0 #f0f0f0;
+                border: 2px solid #8B8B8B;
+                border-radius: 10px;
+                -moz-border-radius: 10px;
+                -op-border-radius: 10px;
+                -webkit-border-radius: 10px;
+            }
+            #form-wrapper h1 {
+                font-weight:bold;
+                margin-bottom:8px;
+            }
+            
+            #form-wrapper label{
+                display:block;
+                font-weight:bold;
+                text-align:right;
+                width:193px;
+                float:left;
+            }
+            #form-wrapper .small{
+                color:#666666;
+                display:block;
+                font-size:11px;
+                font-weight:normal;
+                text-align:right;
+                width:193px;
+            }
+            #form-wrapper input,#form-wrapper textarea{
+                float:left;
+                border:solid 1px #aacfe4;
+                width:284px;
+                margin:2px 0 20px 10px;
+                border-radius: 15px;
+                -moz-border-radius: 15px;
+                -op-border-radius: 15px;
+                -webkit-border-radius: 15px;
+                font-size: 14px;
+            }
+ 
+            #form-wrapper input{
+                height: 25px;
+                padding: 4px 10px;
+            }
+            #form-wrapper textarea{
+                padding: 10px 10px;
+                overflow: auto;
+            }
+
+/*-----------------Css BreadCrumb---------------------*/
+
+#migalhas {
+    margin-left: 180px ; 
+    font-family: Arial, Verdana; 
+    font-size: 16px;
+    color:#20B2AA;
+ 
+}
+#migalhas span {
+    color:#000000;
+    font-size: 13px;
+    font-family: Arial, Verdana; 
+    text-shadow: 2px 2px 2px #ccc;
+    font-weight: bold; 
+    
+    
+}
+.caminho{
+    color:#20B2AA;
+}           
+   
+
+/* progresso*/
+#status {
+
+        position: absolute;
+	left: 50%;
+	top: 50%
+}
+
+
+
+
+.sobre{
+    /*font-family: Tahoma, Arial, Sans-Serif;
+    font-size: 16px;
+    color: #333333;
+    font-weight: normal;
+    text-decoration: none;
+    word-spacing: 3px;
+    letter-spacing: 1px;*/
+    
+    /*color:#666666;
+    display:block;
+    font-size:23px;
+    font-weight:normal;*/
+    
+    font-family: Arial, Verdana; 
+    font-size: 16px;
+    color:#666666;
+}
+.sobre p{
+    line-height:120%;
+}
+
+.posicaoLogo{
+    
+    margin-top: 250px;
+}
+
+

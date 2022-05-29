@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/01/2015, 16:51:34
+    Author     : Valdomiro
+*/
+
+/*---------------------CSS do Formulário------------------*/
+.container{
+   margin-left: 120px;
+   position: absolute; 
+   left: 90px; /* 185 posiciona a 90px para a esquerda */ 
+   top: 180px;
+}	
+#contactform {
+	
+	width: 1100px;/*500px*/
+	padding: 20px;/*20px*/
+        height: 450px;
+	background: #f0f0f0;
+	border: 1px solid #cccccc;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;	
+	
+	-moz-box-shadow: 2px 2px 2px #cccccc;
+	-webkit-box-shadow: 2px 2px 2px #cccccc;
+	box-shadow: 2px 2px 2px #cccccc;
+	
+}
+	
+
+	
+

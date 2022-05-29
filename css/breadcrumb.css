@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/03/2015, 16:35:52
+    Author     : Valdomiro
+*/
+/*-----------------Css BreadCrumb---------------------*/
+
+#migalhas {
+    margin-left: 120px ; 
+    font-family: Arial, Verdana; 
+    font-size: 16px;
+    color:#20B2AA;
+ 
+}
+#migalhas span {
+    color:#000000;
+    font-size: 13px;
+    
+}
+.caminho{
+    color:#20B2AA;
+}
+
